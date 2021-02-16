@@ -4972,8 +4972,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerText: {fileID: 1297224851}
-  WinCanvas: {fileID: 0}
-  WinTime: {fileID: 0}
+  WinCanvas: {fileID: 1133224566}
+  WinTime: {fileID: 213028491}
 --- !u!4 &689315968 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 2dcb55e9abd0bd940aa3529714af2223,
@@ -14912,18 +14912,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 30379228}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1841317489 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 492949948423343572, guid: 2952f85a45a4dfe43bfa6a482d56bbb9,
-    type: 3}
-  m_PrefabInstance: {fileID: 7207278911255873084}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1842086990
 GameObject:
   m_ObjectHideFlags: 0
@@ -16998,6 +16986,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 652c9245689d47047968c2020f300db3, type: 3}
+--- !u!114 &2099917888 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1240046144048495163, guid: 2952f85a45a4dfe43bfa6a482d56bbb9,
+    type: 3}
+  m_PrefabInstance: {fileID: 7207278911255873084}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2101980960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17535,7 +17535,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OptionsButton
       value: 
-      objectReference: {fileID: 1841317489}
+      objectReference: {fileID: 2099917888}
     - target: {fileID: 2072105971784558190, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
         type: 3}
       propertyPath: RestartButton
@@ -17615,7 +17615,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OptionsButton
       value: 
-      objectReference: {fileID: 1841317489}
+      objectReference: {fileID: 0}
     - target: {fileID: 3514405514961989890, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
         type: 3}
       propertyPath: RestartButton

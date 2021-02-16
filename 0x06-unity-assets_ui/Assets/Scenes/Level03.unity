@@ -8893,8 +8893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerText: {fileID: 1297224851}
-  WinCanvas: {fileID: 0}
-  WinTime: {fileID: 0}
+  WinCanvas: {fileID: 1932826495}
+  WinTime: {fileID: 1932826496}
 --- !u!4 &683970516 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 5fd4e08870b355b47a6bbb51ae38b644,
@@ -11916,7 +11916,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 2952f85a45a4dfe43bfa6a482d56bbb9, type: 3}
 --- !u!114 &919248399 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 492949948423343572, guid: 2952f85a45a4dfe43bfa6a482d56bbb9,
+  m_CorrespondingSourceObject: {fileID: 1240046144048495163, guid: 2952f85a45a4dfe43bfa6a482d56bbb9,
     type: 3}
   m_PrefabInstance: {fileID: 919248398}
   m_PrefabAsset: {fileID: 0}

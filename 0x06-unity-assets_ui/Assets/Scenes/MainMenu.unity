@@ -494,8 +494,8 @@ MonoBehaviour:
   Level01: {fileID: 1989092008}
   Level02: {fileID: 1818883126}
   Level03: {fileID: 1746607050}
-  OptionsButton: {fileID: 0}
-  ExitButton: {fileID: 0}
+  OptionsButton: {fileID: 1942220343}
+  ExitButton: {fileID: 1215923036}
 --- !u!1 &946573366
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +574,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946573366}
   m_CullTransparentMesh: 0
+--- !u!114 &1215923036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4419238899138850169, guid: 14fb9ddff0e5d724f961bacb01503783,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302366204}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1267252930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1298,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818883124}
   m_CullTransparentMesh: 0
+--- !u!114 &1942220343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2164108811184890263, guid: 07055a1d0cee40c4d848acaac542dd83,
+    type: 3}
+  m_PrefabInstance: {fileID: 535131943}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1989092006
 GameObject:
   m_ObjectHideFlags: 0
