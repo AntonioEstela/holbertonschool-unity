@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 946573369}
   - component: {fileID: 946573368}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TitleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -947,7 +947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3989927056441634905, guid: a160334d36811ff44b4eb5a32be0a28b,
+  m_Sprite: {fileID: -2713394586522683001, guid: a160334d36811ff44b4eb5a32be0a28b,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1236,6 +1236,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 940513292}
     m_Modifications:
+    - target: {fileID: 7120800853549805026, guid: 5708f2e1e036e84499254047a43891ee,
+        type: 3}
+      propertyPath: m_Name
+      value: OptionsText
+      objectReference: {fileID: 0}
     - target: {fileID: 7120800855411881034, guid: 5708f2e1e036e84499254047a43891ee,
         type: 3}
       propertyPath: m_Name

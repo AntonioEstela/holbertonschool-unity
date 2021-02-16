@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6766015832680954322}
   - component: {fileID: 9105911663653133670}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ExitText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
