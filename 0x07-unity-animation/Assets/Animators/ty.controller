@@ -189,7 +189,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: JumpToFalling
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isFalling
@@ -247,25 +247,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isRuning
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isIdle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isFalling
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -332,9 +332,9 @@ AnimatorStateMachine:
   - first: {fileID: 4315474187496035482}
     second: []
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -90, y: 20, z: 0}
-  m_EntryPosition: {x: -90, y: 120, z: 0}
-  m_ExitPosition: {x: -90, y: 330, z: 0}
+  m_AnyStatePosition: {x: -100, y: 40, z: 0}
+  m_EntryPosition: {x: 260, y: 30, z: 0}
+  m_ExitPosition: {x: -100, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 6493009545145162877}
 --- !u!1101 &2923424919759919798
@@ -471,7 +471,7 @@ AnimatorStateTransition:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
+  m_Name: RunningToFalling
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isFalling
