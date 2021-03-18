@@ -10,7 +10,12 @@ public class WinTrigger : MonoBehaviour
     public GameObject WinCanvas;
     public Text WinTime;
     public GameObject Timer;
+    public AudioSource audioSource;
 
+    public void Start()
+    {
+        PlayerPrefs.SetInt("isWin", 0);
+    }
     private void OnTriggerEnter(Collider other)
     {
         player.GetComponent<Timer>().enabled = false;
@@ -19,6 +24,9 @@ public class WinTrigger : MonoBehaviour
     }
     public void Win()
     {
+        audioSource.Play();
+        PlayerPrefs.SetInt("isWin", 1);
+        
         // Pause the game.
         PlayerPrefs.SetFloat("SensX", 0f);
         PlayerPrefs.SetFloat("SensY", 0f);
