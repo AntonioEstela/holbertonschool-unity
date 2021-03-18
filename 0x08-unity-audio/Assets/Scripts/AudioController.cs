@@ -16,10 +16,6 @@ public class AudioController : MonoBehaviour
 
     public void Start()
     {
-        if (SceneManager.GetActiveScene().isLoaded)
-        {
-            backgroundSource.Play();
-        }
     }
 
     public void Update()
@@ -29,6 +25,7 @@ public class AudioController : MonoBehaviour
             backgroundSource.Stop();
         }
     }
+
     private void Step()
     {
         RaycastHit hit;

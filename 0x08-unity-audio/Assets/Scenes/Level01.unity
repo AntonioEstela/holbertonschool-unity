@@ -11988,12 +11988,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 909783254}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1539699339 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1864298025739650759, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1895867655848417693}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1540070485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: ceb5dc489a3122b4c8ea890bf1f45015,
@@ -17792,9 +17786,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 105802455851246971, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
         type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105802455851246971, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
+        type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4a9dc296c9379444cb9916b2769deba8, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 105802455851246971, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 835639915901378763, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
         type: 3}
       propertyPath: m_Enabled
@@ -17880,11 +17884,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3488990238184787088, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
-        type: 3}
-      propertyPath: backgroundSource
-      value: 
-      objectReference: {fileID: 1539699339}
     - target: {fileID: 3514405514961989890, guid: 2adb5cb75e1d5ee4fbf01f39f13bedeb,
         type: 3}
       propertyPath: MenuButton

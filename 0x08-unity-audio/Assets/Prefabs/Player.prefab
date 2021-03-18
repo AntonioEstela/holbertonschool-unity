@@ -194,45 +194,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &6809900245466072307
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5476202861544867325}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3233f8616f2f1ef42b05d62730bfdb97, type: 3}
-  m_Controller: {fileID: 9100000, guid: 8a27f54d667e2114bbb1ee6de911b0c3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3488990238184787088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5476202861544867325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf39a96ebb0ddfb4c944b161c05c6ad6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 8605622745813110114}
-  grassFootSteps: {fileID: 8300000, guid: 60b5b7c2c8accfc4e9fb5c30e0dedbc2, type: 3}
-  rockFootSteps: {fileID: 8300000, guid: 19ec38249bb6f7244b39c670ba51380a, type: 3}
-  impactGrassSFX: {fileID: 8300000, guid: 474b2e3f8b2eab542a790724a4197eb5, type: 3}
-  impactRockSFX: {fileID: 8300000, guid: fcef3c283ff86a24184eb4cfcaefeabf, type: 3}
-  audioSourceRunning: {fileID: 105802455851246971}
-  audioSourceLanding: {fileID: 1079762191256311106}
-  backgroundSource: {fileID: 0}
 --- !u!82 &1864298025739650759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -330,6 +291,45 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &6809900245466072307
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5476202861544867325}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 3233f8616f2f1ef42b05d62730bfdb97, type: 3}
+  m_Controller: {fileID: 9100000, guid: 8a27f54d667e2114bbb1ee6de911b0c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3488990238184787088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5476202861544867325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf39a96ebb0ddfb4c944b161c05c6ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 8605622745813110114}
+  grassFootSteps: {fileID: 8300000, guid: 60b5b7c2c8accfc4e9fb5c30e0dedbc2, type: 3}
+  rockFootSteps: {fileID: 8300000, guid: 19ec38249bb6f7244b39c670ba51380a, type: 3}
+  impactGrassSFX: {fileID: 8300000, guid: 474b2e3f8b2eab542a790724a4197eb5, type: 3}
+  impactRockSFX: {fileID: 8300000, guid: fcef3c283ff86a24184eb4cfcaefeabf, type: 3}
+  audioSourceRunning: {fileID: 105802455851246971}
+  audioSourceLanding: {fileID: 1079762191256311106}
+  backgroundSource: {fileID: 1864298025739650759}
 --- !u!1 &8605622745813110114
 GameObject:
   m_ObjectHideFlags: 0
