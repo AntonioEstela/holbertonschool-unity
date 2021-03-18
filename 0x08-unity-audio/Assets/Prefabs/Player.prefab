@@ -345,6 +345,7 @@ GameObject:
   - component: {fileID: 8451387599355434924}
   - component: {fileID: 6660164872882782384}
   - component: {fileID: 2072105971784558190}
+  - component: {fileID: 6633033728582862351}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -481,6 +482,16 @@ MonoBehaviour:
   RestartButton: {fileID: 0}
   MenuButton: {fileID: 0}
   OptionsButton: {fileID: 0}
+  Unpaused: {fileID: 0}
+  Paused: {fileID: 0}
+--- !u!81 &6633033728582862351
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605622745813110114}
+  m_Enabled: 1
 --- !u!1001 &5133550164041087148
 PrefabInstance:
   m_ObjectHideFlags: 0

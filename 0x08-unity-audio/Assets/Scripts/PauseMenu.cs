@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PauseMenu : MonoBehaviour
     public Button RestartButton;
     public Button MenuButton;
     public Button OptionsButton;
+    public AudioMixerSnapshot Unpaused;
+    public AudioMixerSnapshot Paused;
 
     private bool isPaused = false;
 
@@ -54,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         PlayerPrefs.SetFloat("SensX", 0f);
         PlayerPrefs.SetFloat("SensY", 0f);
         Time.timeScale = 0;
+        Paused.TransitionTo(0.001f);
     }
 
     // Resumes the game, multiplying the Time by 1.
@@ -62,6 +66,7 @@ public class PauseMenu : MonoBehaviour
         PlayerPrefs.SetFloat("SensX", 1.0f);
         PlayerPrefs.SetFloat("SensY", 1.0f);
         Time.timeScale = 1;
+        Unpaused.TransitionTo(0.001f);
     }
 
     // Restarts the scene.

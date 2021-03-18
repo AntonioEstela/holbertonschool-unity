@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class AudioController : MonoBehaviour
 {
@@ -14,9 +16,7 @@ public class AudioController : MonoBehaviour
     public AudioSource audioSourceLanding;
     public AudioSource backgroundSource;
 
-    public void Start()
-    {
-    }
+
 
     public void Update()
     {

@@ -3,7 +3,16 @@ guid: bf39a96ebb0ddfb4c944b161c05c6ad6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {instanceID: 0}
+  - grassFootSteps: {instanceID: 0}
+  - rockFootSteps: {instanceID: 0}
+  - impactGrassSFX: {instanceID: 0}
+  - impactRockSFX: {instanceID: 0}
+  - audioSourceRunning: {instanceID: 0}
+  - audioSourceLanding: {instanceID: 0}
+  - backgroundSource: {instanceID: 0}
+  - mixer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
